@@ -9,7 +9,7 @@
         <!--View Controller-->
         <scene sceneID="jnI-23-BEu">
             <objects>
-                <viewController id="Zjv-Fr-sp2" customClass="ViewController" customModule="PercentageMarginAutoLayout" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Zjv-Fr-sp2" customClass="ViewController" customModule="PercentageMarginDemo" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="G7i-nh-mPd"/>
                         <viewControllerLayoutGuide type="bottom" id="UIc-89-lqZ"/>
@@ -23,10 +23,10 @@
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="31J-Jg-yCe">
                                         <rect key="frame" x="10" y="10" width="180" height="80"/>
-                                        <color key="backgroundColor" red="0.99202269720000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.60392156862745094" green="0.86274509803921573" blue="0.48627450980392156" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.0012275773900000001" green="0.61487926140000004" blue="0.080142942019999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.27058823529411763" green="0.41176470588235292" blue="0.38039215686274508" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="31J-Jg-yCe" secondAttribute="trailing" constant="10" placeholder="YES" id="6th-4z-haO"/>
                                     <constraint firstAttribute="width" constant="200" id="BaP-k0-JWb"/>
