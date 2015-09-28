@@ -1,6 +1,10 @@
 ## Creating percentage-based margin with Auto Layout in iOS / Swift
 
-This is a collection of functions for creating percentage-based margins between views and their superviews in iOS. The margin are based on the percentage of the superview height or width.
+This is a collection of functions for creating percentage-based margins between views and their superviews in iOS.
+
+It allows, for example, to create an Auto Layout constraint for the trailing margin of 20% between the view and its superview.
+
+<img src='https://raw.githubusercontent.com/exchangegroup/PercentageMargin/master/Graphics/overview.png' width='250' alt='Percentage-based margins with Auto Layout on iOS'>
 
 
 ## Setup
