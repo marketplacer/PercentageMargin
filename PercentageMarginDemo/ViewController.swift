@@ -63,7 +63,8 @@ class ViewController: UIViewController {
     
     NSLayoutConstraint.deactivateConstraints(marginConstraints)
     
-    marginConstraints = PercentageMarginAutoLayout.createConstraintsOnFourSides(subview, superview: superview, marginPercentage: CGFloat(constant))
+    marginConstraints = PercentageMargin.createConstraintsOnFourSides(subview, superview: superview,
+      marginPercentage: CGFloat(constant))
     
     NSLayoutConstraint.activateConstraints(marginConstraints)
   }

@@ -6,7 +6,7 @@ Create auto layout constraints for relative margin between a view and its superv
 is expressed as percentages of superview size. The new constraints created by the functions will need to be activate with NSLayoutConstraint.activateConstraints function.
 
 */
-public struct PercentageMarginAutoLayout {
+public struct PercentageMargin {
   
   /// Create consraints for equal margins on four sides of the subview.
   public static func createConstraintsOnFourSides(subview: UIView,

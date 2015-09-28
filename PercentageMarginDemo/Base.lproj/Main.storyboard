@@ -22,18 +22,18 @@
                                 <rect key="frame" x="200" y="183" width="200" height="100"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="31J-Jg-yCe">
-                                        <rect key="frame" x="10" y="10" width="180" height="80"/>
+                                        <rect key="frame" x="30" y="30" width="140" height="40"/>
                                         <color key="backgroundColor" red="0.60392156862745094" green="0.86274509803921573" blue="0.48627450980392156" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.27058823529411763" green="0.41176470588235292" blue="0.38039215686274508" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="31J-Jg-yCe" secondAttribute="trailing" constant="10" placeholder="YES" id="6th-4z-haO"/>
+                                    <constraint firstAttribute="trailing" secondItem="31J-Jg-yCe" secondAttribute="trailing" constant="30" placeholder="YES" id="6th-4z-haO"/>
                                     <constraint firstAttribute="width" constant="200" id="BaP-k0-JWb"/>
-                                    <constraint firstItem="31J-Jg-yCe" firstAttribute="leading" secondItem="R0j-zM-cv4" secondAttribute="leading" constant="10" placeholder="YES" id="Ek2-tV-DTZ"/>
+                                    <constraint firstItem="31J-Jg-yCe" firstAttribute="leading" secondItem="R0j-zM-cv4" secondAttribute="leading" constant="30" placeholder="YES" id="Ek2-tV-DTZ"/>
                                     <constraint firstAttribute="height" constant="100" id="NVJ-HG-K7x"/>
-                                    <constraint firstAttribute="bottom" secondItem="31J-Jg-yCe" secondAttribute="bottom" constant="10" placeholder="YES" id="dvH-I7-x9H"/>
-                                    <constraint firstItem="31J-Jg-yCe" firstAttribute="top" secondItem="R0j-zM-cv4" secondAttribute="top" constant="10" placeholder="YES" id="xIc-wq-TC5"/>
+                                    <constraint firstAttribute="bottom" secondItem="31J-Jg-yCe" secondAttribute="bottom" constant="30" placeholder="YES" id="dvH-I7-x9H"/>
+                                    <constraint firstItem="31J-Jg-yCe" firstAttribute="top" secondItem="R0j-zM-cv4" secondAttribute="top" constant="30" placeholder="YES" id="xIc-wq-TC5"/>
                                 </constraints>
                             </view>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="I8f-0A-tna">

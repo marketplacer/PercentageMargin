@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7EC426B71BB900850066339B /* PercentageMargin.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC426B61BB900850066339B /* PercentageMargin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7EC426BF1BB900A10066339B /* PercentageMarginAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC426BE1BB900A10066339B /* PercentageMarginAutoLayout.swift */; settings = {ASSET_TAGS = (); }; };
+		7EC426BF1BB900A10066339B /* PercentageMargin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC426BE1BB900A10066339B /* PercentageMargin.swift */; settings = {ASSET_TAGS = (); }; };
 		7EC426C71BB900E20066339B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC426C61BB900E20066339B /* AppDelegate.swift */; };
 		7EC426C91BB900E20066339B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC426C81BB900E20066339B /* ViewController.swift */; };
 		7EC426CC1BB900E20066339B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC426CA1BB900E20066339B /* Main.storyboard */; };
@@ -47,7 +47,7 @@
 		7EC426B31BB900850066339B /* PercentageMargin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PercentageMargin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC426B61BB900850066339B /* PercentageMargin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PercentageMargin.h; sourceTree = "<group>"; };
 		7EC426B81BB900850066339B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7EC426BE1BB900A10066339B /* PercentageMarginAutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercentageMarginAutoLayout.swift; sourceTree = "<group>"; };
+		7EC426BE1BB900A10066339B /* PercentageMargin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercentageMargin.swift; sourceTree = "<group>"; };
 		7EC426C41BB900E20066339B /* PercentageMarginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PercentageMarginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC426C61BB900E20066339B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EC426C81BB900E20066339B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 		7EC426B51BB900850066339B /* PercentageMargin */ = {
 			isa = PBXGroup;
 			children = (
-				7EC426BE1BB900A10066339B /* PercentageMarginAutoLayout.swift */,
+				7EC426BE1BB900A10066339B /* PercentageMargin.swift */,
 				7EC426B61BB900850066339B /* PercentageMargin.h */,
 				7EC426B81BB900850066339B /* Info.plist */,
 			);
@@ -232,7 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EC426BF1BB900A10066339B /* PercentageMarginAutoLayout.swift in Sources */,
+				7EC426BF1BB900A10066339B /* PercentageMargin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
