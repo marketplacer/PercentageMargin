@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = "PercentageMargin"
-  s.version     = "1.0.1"
+  s.version     = "1.0.2"
   s.license     = { :type => "MIT" }
   s.homepage    = "https://github.com/exchangegroup/PercentageMargin"
   s.summary     = "A library for creating percentage-based margins with Auto Layout constraints in iOS / Swift."
