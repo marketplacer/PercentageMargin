@@ -3,7 +3,7 @@ import UIKit
 /**
 
 Create auto layout constraints for relative margin between a view and its superview. The margin
-is expressed as percentages of superview size. The new constraints created by the functions will need to be activate with NSLayoutConstraint.activateConstraints function.
+is expressed as percentages of superview size. The new constraints created by the functions will need to be activated with NSLayoutConstraint.activateConstraints function.
 
 */
 public struct PercentageMargin {
