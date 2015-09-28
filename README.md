@@ -84,6 +84,32 @@ let constraint4Sides = PercentageMargin.createConstraintsOnFourSides(subview, su
 NSLayoutConstraint.activateConstraints(constraint4Sides)
 ```
 
+## How it works
+
+Creating a simple percentage-based constraint is easy. You can do it in the storyboard.
+For example, suppose you want to create a **10% trailing margin* constraint. This is how it is done:
+
+1. Create a *trailing* constraint between your view and its superview.
+1. Make sure the first constraint item is the subview and the second item is the superview. This can be done by clicking on the *first item* drop down and selecting *Reverse First and Second Item*.
+1. Change the *constant* value of the constraint to *zero* in the attributes inspector.
+1. Change the *multiplier* value to *0.9*.
+
+<img src='https://raw.githubusercontent.com/exchangegroup/PercentageMargin/master/Graphics/percentage_based_constraints_how_it_works.png' width='516' alt='How percentage-based constraints work in iOS'>
+
+Creating the *leading* margin can be done in a similar way but there are some nuances.
+
+1. You will start by creating a leading constraint.
+1. Next, change the second item from the superview leading to *trailing*.
+1. Change the *constant* value to *zero* and the *multiplier* value to *0.1*.
+
+You can use the same technique to create top and bottom margins with constraints. Remember to keep superview in the second item and set it to 'bottom'.
+
+## Handling right-to-left language layouts
+
+Unfortunately, the method described above for creating leading and trailing constraints in the storyboard does not work for right-to-left languages. You can see it by running the app in the simulator with the language change to *Right to left pseudolanguage* in option section of the scheme settings.
+
+For the right-to-left language both the *multiplier* and the second constraint item need to be reversed relative to the normal layout. For example, the trailing margin will have multiplier of *0.1* for the right-to-left language and the second item needs to be 'leading' for the trailing constraint.
+
 ## Demo app
 
 The project includes a demo iOS apps.
