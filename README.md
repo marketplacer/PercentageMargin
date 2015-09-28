@@ -72,16 +72,16 @@ NSLayoutConstraint.activateConstraints([constraintTrailing])
 
 ```Swift
 // Create top and bottom constraints for 20% margin
-let constraintVertical = PercentageMargin.createVerticalConstraints(subview, superview: superview, marginPercentage: 20)
-NSLayoutConstraint.activateConstraints(constraintVertical)
+let constraintsVertical = PercentageMargin.createVerticalConstraints(subview, superview: superview, marginPercentage: 20)
+NSLayoutConstraint.activateConstraints(constraintsVertical)
 
 // Create leading and trailing constraints for 20% margin
-let constraintHorizontal = PercentageMargin.createHorizontalConstraints(subview, superview: superview, marginPercentage: 20)
-NSLayoutConstraint.activateConstraints(constraintHorizontal)
+let constraintsHorizontal = PercentageMargin.createHorizontalConstraints(subview, superview: superview, marginPercentage: 20)
+NSLayoutConstraint.activateConstraints(constraintsHorizontal)
 
 // Create constraints for 20% margins on all four sides of the subview
-let constraint4Sides = PercentageMargin.createConstraintsOnFourSides(subview, superview: superview, marginPercentage: 20)
-NSLayoutConstraint.activateConstraints(constraint4Sides)
+let constraints4Sides = PercentageMargin.createConstraintsOnFourSides(subview, superview: superview, marginPercentage: 20)
+NSLayoutConstraint.activateConstraints(constraints4Sides)
 ```
 
 ## How it works
