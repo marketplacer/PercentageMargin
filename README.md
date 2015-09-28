@@ -48,7 +48,7 @@ override func viewDidLoad() {
 }
 ```
 
-## Create top, bottom, leading and trailing constraints separately
+## Creating top, bottom, leading and trailing constraints
 
 ```Swift
 // Create top constraint for 20% margin
