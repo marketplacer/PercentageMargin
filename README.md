@@ -108,7 +108,7 @@ You can use the same technique to create top and bottom margins with constraints
 
 Unfortunately, the method described above for creating leading and trailing constraints in the storyboard does not work for right-to-left languages. You can test it by running the app in the simulator with the language set to *Right to left pseudolanguage* in option section of the scheme settings.
 
-Right-to-left language layout require different constraint setup. In this case both the *multiplier* and the second constraint item need to be reversed relative to the normal layout. For example, the trailing margin will have multiplier of *0.1* for the right-to-left language and the second item needs to be 'leading' for the trailing constraint.
+Right-to-left language layout require different constraint setup. In this case both the *multiplier* and the second constraint item need to be reversed relative to the normal layout. For example, the trailing margin will have multiplier of *0.1* and the second item needs to be 'leading' for the trailing constraint.
 
 ## Demo app
 
