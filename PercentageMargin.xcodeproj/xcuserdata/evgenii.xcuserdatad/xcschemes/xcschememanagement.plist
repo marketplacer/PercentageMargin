@@ -9,10 +9,20 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>PercentageMarginDemo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>7EC426B21BB900850066339B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7EC426C31BB900E20066339B</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -8,12 +8,54 @@
 
 /* Begin PBXBuildFile section */
 		7EC426B71BB900850066339B /* PercentageMargin.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EC426B61BB900850066339B /* PercentageMargin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EC426BF1BB900A10066339B /* PercentageMarginAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC426BE1BB900A10066339B /* PercentageMarginAutoLayout.swift */; settings = {ASSET_TAGS = (); }; };
+		7EC426C71BB900E20066339B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC426C61BB900E20066339B /* AppDelegate.swift */; };
+		7EC426C91BB900E20066339B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC426C81BB900E20066339B /* ViewController.swift */; };
+		7EC426CC1BB900E20066339B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC426CA1BB900E20066339B /* Main.storyboard */; };
+		7EC426CE1BB900E20066339B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC426CD1BB900E20066339B /* Assets.xcassets */; };
+		7EC426D11BB900E20066339B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC426CF1BB900E20066339B /* LaunchScreen.storyboard */; };
+		7EC426D71BB900F90066339B /* DemoConstrants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC426D61BB900F90066339B /* DemoConstrants.swift */; settings = {ASSET_TAGS = (); }; };
+		7EC426D81BB9012C0066339B /* PercentageMargin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC426B31BB900850066339B /* PercentageMargin.framework */; };
+		7EC426D91BB9012C0066339B /* PercentageMargin.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC426B31BB900850066339B /* PercentageMargin.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7EC426DA1BB9012C0066339B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EC426AA1BB900850066339B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EC426B21BB900850066339B;
+			remoteInfo = PercentageMargin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7EC426DC1BB9012C0066339B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7EC426D91BB9012C0066339B /* PercentageMargin.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		7EC426B31BB900850066339B /* PercentageMargin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PercentageMargin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC426B61BB900850066339B /* PercentageMargin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PercentageMargin.h; sourceTree = "<group>"; };
 		7EC426B81BB900850066339B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC426BE1BB900A10066339B /* PercentageMarginAutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PercentageMarginAutoLayout.swift; sourceTree = "<group>"; };
+		7EC426C41BB900E20066339B /* PercentageMarginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PercentageMarginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC426C61BB900E20066339B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EC426C81BB900E20066339B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EC426CB1BB900E20066339B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EC426CD1BB900E20066339B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EC426D01BB900E20066339B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EC426D21BB900E20066339B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC426D61BB900F90066339B /* DemoConstrants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoConstrants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +66,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7EC426C11BB900E20066339B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC426D81BB9012C0066339B /* PercentageMargin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -31,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				7EC426B51BB900850066339B /* PercentageMargin */,
+				7EC426C51BB900E20066339B /* PercentageMarginDemo */,
 				7EC426B41BB900850066339B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -39,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				7EC426B31BB900850066339B /* PercentageMargin.framework */,
+				7EC426C41BB900E20066339B /* PercentageMarginDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -46,10 +98,25 @@
 		7EC426B51BB900850066339B /* PercentageMargin */ = {
 			isa = PBXGroup;
 			children = (
+				7EC426BE1BB900A10066339B /* PercentageMarginAutoLayout.swift */,
 				7EC426B61BB900850066339B /* PercentageMargin.h */,
 				7EC426B81BB900850066339B /* Info.plist */,
 			);
 			path = PercentageMargin;
+			sourceTree = "<group>";
+		};
+		7EC426C51BB900E20066339B /* PercentageMarginDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7EC426C61BB900E20066339B /* AppDelegate.swift */,
+				7EC426D61BB900F90066339B /* DemoConstrants.swift */,
+				7EC426C81BB900E20066339B /* ViewController.swift */,
+				7EC426CA1BB900E20066339B /* Main.storyboard */,
+				7EC426CD1BB900E20066339B /* Assets.xcassets */,
+				7EC426CF1BB900E20066339B /* LaunchScreen.storyboard */,
+				7EC426D21BB900E20066339B /* Info.plist */,
+			);
+			path = PercentageMarginDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,16 +151,39 @@
 			productReference = 7EC426B31BB900850066339B /* PercentageMargin.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		7EC426C31BB900E20066339B /* PercentageMarginDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC426D31BB900E20066339B /* Build configuration list for PBXNativeTarget "PercentageMarginDemo" */;
+			buildPhases = (
+				7EC426C01BB900E20066339B /* Sources */,
+				7EC426C11BB900E20066339B /* Frameworks */,
+				7EC426C21BB900E20066339B /* Resources */,
+				7EC426DC1BB9012C0066339B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EC426DB1BB9012C0066339B /* PBXTargetDependency */,
+			);
+			name = PercentageMarginDemo;
+			productName = PercentageMarginDemo;
+			productReference = 7EC426C41BB900E20066339B /* PercentageMarginDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		7EC426AA1BB900850066339B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Marketplacer;
 				TargetAttributes = {
 					7EC426B21BB900850066339B = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					7EC426C31BB900E20066339B = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
@@ -104,6 +194,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 7EC426A91BB900850066339B;
 			productRefGroup = 7EC426B41BB900850066339B /* Products */;
@@ -111,6 +202,7 @@
 			projectRoot = "";
 			targets = (
 				7EC426B21BB900850066339B /* PercentageMargin */,
+				7EC426C31BB900E20066339B /* PercentageMarginDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -123,6 +215,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7EC426C21BB900E20066339B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC426D11BB900E20066339B /* LaunchScreen.storyboard in Resources */,
+				7EC426CE1BB900E20066339B /* Assets.xcassets in Resources */,
+				7EC426CC1BB900E20066339B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -130,10 +232,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EC426BF1BB900A10066339B /* PercentageMarginAutoLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC426C01BB900E20066339B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC426C91BB900E20066339B /* ViewController.swift in Sources */,
+				7EC426C71BB900E20066339B /* AppDelegate.swift in Sources */,
+				7EC426D71BB900F90066339B /* DemoConstrants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EC426DB1BB9012C0066339B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EC426B21BB900850066339B /* PercentageMargin */;
+			targetProxy = 7EC426DA1BB9012C0066339B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EC426CA1BB900E20066339B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EC426CB1BB900E20066339B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EC426CF1BB900E20066339B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EC426D01BB900E20066339B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7EC426B91BB900850066339B /* Debug */ = {
@@ -173,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -215,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -228,6 +368,25 @@
 		7EC426BC1BB900850066339B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = PercentageMargin/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marketplacer.PercentageMargin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EC426BD1BB900850066339B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -239,21 +398,31 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
-		7EC426BD1BB900850066339B /* Release */ = {
+		7EC426D41BB900E20066339B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = PercentageMargin/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.marketplacer.PercentageMargin;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = PercentageMarginDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marketplacer.PercentageMarginDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7EC426D51BB900E20066339B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = PercentageMarginDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.marketplacer.PercentageMarginDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -274,6 +443,14 @@
 			buildConfigurations = (
 				7EC426BC1BB900850066339B /* Debug */,
 				7EC426BD1BB900850066339B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EC426D31BB900E20066339B /* Build configuration list for PBXNativeTarget "PercentageMarginDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC426D41BB900E20066339B /* Debug */,
+				7EC426D51BB900E20066339B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
