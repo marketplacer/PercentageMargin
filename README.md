@@ -81,3 +81,7 @@ NSLayoutConstraint.activateConstraints(constraintHorizontal)
 let constraint4Sides = PercentageMargin.createConstraintsOnFourSides(subview, superview: superview, marginPercentage: 20)
 NSLayoutConstraint.activateConstraints(constraint4Sides)
 ```
+
+## License
+
+PercentageMargin is released under the [MIT License](LICENSE).
