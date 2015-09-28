@@ -48,8 +48,8 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Subview margin: 5%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhO-uT-pTE">
-                                <rect key="frame" x="223" y="103" width="154" height="20.5"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Margin: 5%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hhO-uT-pTE">
+                                <rect key="frame" x="257.5" y="103" width="85" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -61,7 +61,7 @@
                                 </connections>
                             </slider>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.81960784313725488" green="0.87450980392156863" blue="0.86274509803921573" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Jhw-b1-j4W" firstAttribute="centerX" secondItem="bic-Ud-c2x" secondAttribute="centerX" id="0ZR-nL-21z"/>
                             <constraint firstItem="hhO-uT-pTE" firstAttribute="top" secondItem="I8f-0A-tna" secondAttribute="bottom" constant="25" id="25E-IC-wI9"/>

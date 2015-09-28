@@ -59,7 +59,7 @@ class ViewController: UIViewController {
   private func updateSubviewMargin() {
     let constant = Int(subviewMarginSlider.value)
     
-    subviewMarginLabel.text = "Subview margin: \(constant)%"
+    subviewMarginLabel.text = "Margin: \(constant)%"
     
     NSLayoutConstraint.deactivateConstraints(marginConstraints)
     
