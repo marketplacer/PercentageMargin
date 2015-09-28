@@ -37,7 +37,7 @@ Add `import PercentageMargin` to your source code if you used Carthage or CocoaP
 
 3) Create outlets for both your *subview* and its *superview* in the view controller.
 
-4) Finally, create the percentage-based constraint between the view or its superview. It can be done in viewDidLoad. In this example, we create a trailing constraint for 20% margin of the superview width.
+4) Finally, create the percentage-based constraint between the view or its superview. It can be done in *viewDidLoad* method. In this example, we create a trailing constraint for 20% margin of the superview width.
 
 ```Swift
 override func viewDidLoad() {
