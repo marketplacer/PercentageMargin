@@ -8,7 +8,7 @@ is expressed as percentages of superview size. The new constraints created by th
 */
 public struct PercentageMargin {
   
-  /// Create consraints for equal margins on four sides of the subview.
+  /// Create constraints for equal margins on four sides of the subview.
   public static func createConstraintsOnFourSides(subview: UIView,
     superview: UIView,
     marginPercentage: CGFloat) -> [NSLayoutConstraint] {

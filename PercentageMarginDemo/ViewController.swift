@@ -24,8 +24,6 @@ class ViewController: UIViewController {
     
     setupSubviewMarginSlider()
     updateSubviewMargin()
-    
-    
   }
   
   // MARK: - Superview size
