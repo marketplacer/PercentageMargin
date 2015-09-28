@@ -86,7 +86,7 @@ NSLayoutConstraint.activateConstraints(constraint4Sides)
 
 ## How it works
 
-Creating a simple percentage-based constraint is easy. You can do it in the storyboard.
+Creating a simple percentage-based constraint can be easily done in the storyboard.
 For example, suppose you want to create a *10% trailing margin* constraint. This is how it is done:
 
 1. Create a *trailing* constraint between your view and its superview.
