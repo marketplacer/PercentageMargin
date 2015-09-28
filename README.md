@@ -31,7 +31,7 @@ Add `import PercentageMargin` to your source code if you used Carthage or CocoaP
 
 1) Create a constraint between your view and its superview in the storyboard.
 
-2) Check "remove at build time" option for the constraint in the *attributes inspector*. This is done just to suppress Xcode warnings. A percentage-based constraint will be created form the code instead.
+2) Check "remove at build time" option for the constraint in the *attributes inspector*. A percentage-based constraint will be created form the code instead.
 
 <img src='https://raw.githubusercontent.com/exchangegroup/PercentageMargin/master/Graphics/setup_layout_constraint.png' width='480' alt='Setup percentage-based margins with Auto Layout in iOS / Swift'>
 
