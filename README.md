@@ -7,7 +7,7 @@ This a library for creating percentage-based margins between views and their sup
 
 ## Setup
 
-There are three ways you can add Dodo to your project.
+There are three ways you can add PercentageMargin to your project.
 
 **Add source (iOS 7+)**
 
