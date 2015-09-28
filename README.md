@@ -82,6 +82,12 @@ let constraint4Sides = PercentageMargin.createConstraintsOnFourSides(subview, su
 NSLayoutConstraint.activateConstraints(constraint4Sides)
 ```
 
+## Demo app
+
+The project includes a demo iOS apps.
+
+<img src='https://raw.githubusercontent.com/exchangegroup/PercentageMargin/master/Graphics/percentage_margin_auto_layout.gif' alt='Percentage margins with Auto Layout demo iOS app'>
+
 ## License
 
 PercentageMargin is released under the [MIT License](LICENSE).
