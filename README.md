@@ -77,7 +77,7 @@ NSLayoutConstraint.activateConstraints(constraintVertical)
 let constraintHorizontal = PercentageMargin.createHorizontalConstraints(subview, superview: superview, marginPercentage: 20)
 NSLayoutConstraint.activateConstraints(constraintHorizontal)
 
-// Create constraints for 20%  margins on four sides of the subview
+// Create constraints for 20% margins on all four sides of the subview
 let constraint4Sides = PercentageMargin.createConstraintsOnFourSides(subview, superview: superview, marginPercentage: 20)
 NSLayoutConstraint.activateConstraints(constraint4Sides)
 ```
