@@ -2,7 +2,7 @@
 
 This a library for creating percentage-based margins between views and their superviews in iOS. It allows, for example, to create an Auto Layout constraint for the trailing margin of 20% between the view and its superview. Because the margin is percentage-based its absolute size will adapt automatically when the size of its superview changes.
 
-<img src='https://raw.githubusercontent.com/exchangegroup/PercentageMargin/master/Graphics/overview.png' width='250' alt='Percentage-based margins with Auto Layout on iOS'>
+<img src='https://raw.githubusercontent.com/marketplacer/PercentageMargin/master/Graphics/overview.png' width='250' alt='Percentage-based margins with Auto Layout on iOS'>
 
 
 ## Setup
@@ -11,11 +11,11 @@ There are three ways you can add PercentageMargin to your project.
 
 **Add source (iOS 7+)**
 
-Simply add [PercentageMargin.swift](https://github.com/exchangegroup/PercentageMargin/blob/master/PercentageMargin/PercentageMargin.swift) file into your Xcode project.
+Simply add [PercentageMargin.swift](https://github.com/marketplacer/PercentageMargin/blob/master/PercentageMargin/PercentageMargin.swift) file into your Xcode project.
 
 **Setup with Carthage (iOS 8+)**
 
-Add `github "exchangegroup/PercentageMargin" ~> 1.0` to your Cartfile and run `carthage update`.
+Add `github "marketplacer/PercentageMargin" ~> 1.0` to your Cartfile and run `carthage update`.
 
 **Setup with CocoaPods (iOS 8+)**
 
@@ -33,7 +33,7 @@ Add `import PercentageMargin` to your source code if you used Carthage or CocoaP
 
 2) Check "remove at build time" option for the constraint in the *attributes inspector*. A percentage-based constraint will be created form the code instead.
 
-<img src='https://raw.githubusercontent.com/exchangegroup/PercentageMargin/master/Graphics/setup_layout_constraint.png' width='480' alt='Setup percentage-based margins with Auto Layout in iOS / Swift'>
+<img src='https://raw.githubusercontent.com/marketplacer/PercentageMargin/master/Graphics/setup_layout_constraint.png' width='480' alt='Setup percentage-based margins with Auto Layout in iOS / Swift'>
 
 3) Create outlets for both your *subview* and its *superview* in the view controller.
 
@@ -94,7 +94,7 @@ For example, suppose we want to create a *10% trailing margin* constraint. This 
 1. Change the *constant* value of the constraint to *zero* in the attributes inspector.
 1. Change the *multiplier* value to *0.9*.
 
-<img src='https://raw.githubusercontent.com/exchangegroup/PercentageMargin/master/Graphics/percentage_based_constraints_how_it_works.png' width='516' alt='How percentage-based constraints work in iOS'>
+<img src='https://raw.githubusercontent.com/marketplacer/PercentageMargin/master/Graphics/percentage_based_constraints_how_it_works.png' width='516' alt='How percentage-based constraints work in iOS'>
 
 Creating the *leading* margin can be done in a similar way but there are some nuances.
 
@@ -114,7 +114,7 @@ Right-to-left language layout require different constraint setup. In this case b
 
 The project includes a demo iOS apps.
 
-<img src='https://raw.githubusercontent.com/exchangegroup/PercentageMargin/master/Graphics/percentage_margin_auto_layout.gif' alt='Percentage margins with Auto Layout demo iOS app'>
+<img src='https://raw.githubusercontent.com/marketplacer/PercentageMargin/master/Graphics/percentage_margin_auto_layout.gif' alt='Percentage margins with Auto Layout demo iOS app'>
 
 ## License
 
