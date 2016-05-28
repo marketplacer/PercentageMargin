@@ -22,6 +22,7 @@ Add `github "exchangegroup/PercentageMargin" ~> 1.0` to your Cartfile and run `c
 If you are using CocoaPods add this text to your Podfile and run `pod install`.
 
     use_frameworks!
+    target 'Your target name'
     pod 'PercentageMargin', '~> 1.0'
 
 
